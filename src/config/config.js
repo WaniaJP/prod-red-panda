@@ -38,5 +38,5 @@ export const getLocalBroker = () => {
 }
 
 export const getNumberWord = () => {
-    return process.env.NUMBER_WORD || 3;
+    return process.env.NUMBER_WORD;
 }
